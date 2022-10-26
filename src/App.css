@@ -1,7 +1,4 @@
  .app-container {
-  display: flex;
-  flex-direction: column;
-  
   padding: 1rem;
 }
 
@@ -31,16 +28,35 @@ td {
   background-color: rgb(205, 235, 253);
 }
 
-form {
-  display: flex;
-  gap: 5px;
+form input:nth-child(1n) {
+  margin-right: 1.5%;
 }
 
-form td:last-child {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-form * {
+body {
   font-size: 28px;
+  justify-content: center;
 } 
+
+.buttons {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.button1{
+  margin-right: 2%;
+}
+
+.add{
+  /* display: flex;
+  justify-content: center;*/
+  text-align: center; 
+  gap: 5px;
+  font-size: 12px;
+  margin-bottom: 2%;
+  max-height:min-content;
+}
+
+input{
+  font-size: 10px;
+  justify-content: center;
+}
