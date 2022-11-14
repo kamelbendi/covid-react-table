@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/covid-react-table/static/css/main.0e061fd3.css",
+    "main.js": "/covid-react-table/static/js/main.ce82581f.js",
+    "index.html": "/covid-react-table/index.html",
+    "main.0e061fd3.css.map": "/covid-react-table/static/css/main.0e061fd3.css.map",
+    "main.ce82581f.js.map": "/covid-react-table/static/js/main.ce82581f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e061fd3.css",
+    "static/js/main.ce82581f.js"
+  ]
+}
