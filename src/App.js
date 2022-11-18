@@ -43,10 +43,10 @@ class App extends Component {
 }
 
   async componentDidUpdate(prevProps, prevState){
-if(this.state.data !== [] && prevState.data !== this.state.data){
-    await this.LoadEveryCountryData();
-      this.state.data.map( async (country, index) => {
-        fetch('https://covid19.mathdro.id/api/countries/' + country.name)
+    if(this.state.data !== [] && prevState.data !== this.state.data){
+      //await this.LoadEveryCountryData();
+        this.state.data.map( async (country, index) => {
+          fetch('https://covid19.mathdro.id/api/countries/' + country.name)
            .then((response) => response.json())
            .then( dataCovid => {
              let items = this.state.data;
