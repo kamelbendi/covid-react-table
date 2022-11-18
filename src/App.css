@@ -17,7 +17,7 @@ td {
   text-align: left;
   padding: 8px;
   font-size: 12px;
-  width : 25%;
+  width : 21%;
 }
 
 th {
@@ -42,21 +42,44 @@ body {
   text-align: center;
 }
 
-.button1{
+.load-data{
   margin-right: 2%;
+  background-color: white;
+  border-radius : 10%;
+  padding : 1%;
+  width: 20%;
+}
+
+.erase-data{
+  background-color: white;
+  border-radius : 10%;
+  padding : 1%;
+  width: 20%;
+}
+
+button:hover {
+  background-color: rgb(201, 199, 199);
 }
 
 .add{
   /* display: flex;
   justify-content: center;*/
   text-align: center; 
+  padding-bottom: 1.5%;
+  padding-top: 0.1%;
   gap: 5px;
   font-size: 12px;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   max-height:min-content;
+  background-color: #f2f2f2;
+}
+.add-button{
+  background-color: #f2f2f2;
+  border-radius: 10%;
 }
 
 input{
   font-size: 10px;
   justify-content: center;
+  padding: 0.3%;
 }
